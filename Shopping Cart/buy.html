@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Buy</title>
+	<meta charset="UTF-8">
+    <!-- 强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览 -->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <!-- iphone safari: 允许全屏模式浏览 -->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!-- iphone中safari顶端的状态条的样式 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header"> 
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<span class="name">winer</span>
+			<span class="time">10:02&nbsp;AM</span>
+			<span class="header-right">100%</span>
+			<i></i>
+		</div>
+		<div class="title">
+			<a href="#"></a>
+			<h2>购物车</h2>
+		</div>
+		<div>	
+			<ul id="goodslist">
+				<li>
+					<i class="up"></i>
+					<img src="goods.png" alt="商品">
+					<div class="list-right">
+						<h2>商品描述</h2>
+						<p>￥<b class="Uprice">690</b>元</p>
+						<div class="num">
+							<input class="minus" type="button" value="-">
+							<span>0</span>
+							<input class="add" type="button" value="+">
+						</div>
+						<i class="del"></i>
+					</div>
+				</li>
+				<li>
+					<i class="up"></i>
+					<img src="goods.png" alt="商品">
+					<div  class="list-right">
+						<h2>商品描述</h2>
+						<p>￥<b class="Uprice">670</b>元</p>
+						<div class="num">
+							<input class="minus" type="button" value="-">
+							<span>0</span>
+							<input class="add" type="button" value="+">
+						</div>
+						<i class="del"></i>
+					</div>
+				</li>
+				<li>
+					<i class="up"></i>
+					<img src="goods.png" alt="商品">
+					<div class="list-right">
+						<h2>商品描述</h2>
+						<p>￥<b class="Uprice">600</b>元</p>
+						<div class="num">
+							<input class="minus" type="button" value="-">
+							<span>0</span>
+							<input class="add" type="button" value="+">
+						</div>
+						<i class="del"></i>
+					</div>
+				</li>
+
+				<li>
+					<i class="up"></i>
+					<img src="goods.png" alt="商品">
+					<div  class="list-right">
+						<h2>商品描述</h2>
+						<p>￥<b class="Uprice">500</b>元</p>
+						<div class="num">
+							<input class="minus" type="button" value="-">
+							<span>0</span>
+							<input class="add" type="button" value="+">
+						</div>
+						<i class="del"></i>
+					</div>
+				</li>
+				<li class="totalnum"><span>共<b id="num">0</b>件商品</span></li>
+			</ul>
+		</div>
+		<div class="footer">
+			<div class="allcheck">
+				<i class="up"></i><b>全选</b>
+			</div>
+			<p>总计：<b id="totalPrice">0</b><span>元</span></p>
+			<div class="buy">购买</div>
+		</div>
+	</div>
+	<script src="cart.js"></script>
+</body>
+</html>

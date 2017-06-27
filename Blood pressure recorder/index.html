@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/mobiscroll.forms.min.css"> 
+	<title>血压计录入</title>
+	<style>
+		*{ margin: 0; padding: 0; }
+
+		body { font-size: 12px }
+
+		li { list-style: none; }
+
+		.container{
+			width: 100%;
+			height: 100vh;
+			background: #fff;
+		}
+
+		.container .header {
+			position: relative;
+			width: 100%;
+			height: 3vh;
+			background: #00cbcb;
+		}
+
+		.container .header ul {
+			float: left;
+			line-height: 2.5vh;
+			margin-left: 3vw;
+		}
+
+		.container .header ul li {
+			display: inline-block;
+			width: 2vw; height: 1vh;
+			border-radius: 50%;
+			background: #fff;
+		}
+
+		.container .header span {
+			margin-left: 2vw;
+			color: #fff;
+		}
+
+		.container .header .time {
+			margin-left: 11vw;
+		}
+
+		.container .header i {
+			display: block;
+			position: absolute;
+			top: 0.3vh;
+			right: 3vw;
+			background: url('battery.png') center/cover;
+			width: 5vw;
+			height: 2vh;
+		}
+
+		.container .header .header-right {
+			float: right;
+			margin-right: 10vw;
+		}
+	</style>
+	<script src="~/js/mobiscroll.forms.min.js"></script>
+	<script src="~/js/jquery-3.1.1.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header"> 
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<span>winer</span>
+			<span class="time">10:02&nbsp;AM</span>
+			<span class="header-right">100%</span>
+			<i></i>
+		</div>
+		<div>	
+			<ul id="treelist">
+				<li>51</li>
+				<li>52</li>
+				<li>53</li>
+				<li>54</li>
+				<li>55</li>
+				<li>56</li>
+				<li>57</li>
+			</ul>
+
+		</div>
+	</div>
+	<script>
+		var olist = document.getElementById('treelist');
+		
+	</script>
+	
+</body>
+</html>
